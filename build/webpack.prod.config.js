@@ -6,17 +6,19 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 const path = require('path')
 
-console.info(path.resolve(__dirname, '../dist'))
-
 module.exports = merge(baseWebpackConfig, {
   mode: 'production',
   output: {
     path: path.resolve(__dirname, '../dist'),
+    publicPath: '/',
 		filename: 'static/js/[name].[hash].js'
   },
   devtool: false,
   plugins: [
-    new CleanWebpackPlugin(['dist']),
+    new CleanWebpackPlugin([path.resolve(__dirname, '../dist')], {
+      exclude: 'src',
+      allowExternal: true
+    }),
     new webpack.NamedModulesPlugin(),
     new ExtractTextPlugin('static/css/[name].[chunkhash].css'),
     new HtmlWebpackPlugin({
