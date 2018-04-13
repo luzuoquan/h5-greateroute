@@ -725,13 +725,13 @@ body {
 
 .m-page-3-bg-1 {
   display: block;
-  width: 2.43rem;
-  height: 2.21rem;
+  width: 2.03rem;
+  height: 1.84rem;
   margin: 0.1rem auto 0; }
 
 .m-page-3-text-2 {
   display: block;
-  width: 2.75rem;
+  width: 2.4rem;
   height: 1.07rem;
   background: url("/src/images/page-3-text-2.png") no-repeat;
   background-size: contain;
