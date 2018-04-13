@@ -624,7 +624,11 @@ html, body {
 
 body {
   margin: 0;
-  overflow-scrolling: touch; }
+  overflow-scrolling: touch;
+  padding-top: constant(safe-area-inset-top);
+  padding-left: constant(safe-area-inset-left);
+  padding-right: constant(safe-area-inset-right);
+  padding-bottom: constant(safe-area-inset-bottom); }
 
 #J-main-swiper {
   height: 100%;
@@ -655,11 +659,13 @@ body {
     width: 3.17rem;
     height: 0.49rem;
     margin: 0.15rem auto 0; }
-  .m-index-0 .m-page1-btn-1 > img {
-    display: block;
-    width: 2.2rem;
-    height: 0.42rem;
-    margin: 0.15rem auto 0; }
+  .m-index-0 .m-page1-btn-1 {
+    display: block; }
+    .m-index-0 .m-page1-btn-1 > img {
+      display: block;
+      width: 2.2rem;
+      height: 0.42rem;
+      margin: 0.15rem auto 0; }
 
 .m-arrow {
   display: block;
@@ -715,13 +721,13 @@ body {
   height: 0.29rem;
   background: url("/src/images/page-3-text-1.png") no-repeat;
   background-size: contain;
-  margin: 0.2rem auto 0; }
+  margin: 0.1rem auto 0; }
 
 .m-page-3-bg-1 {
   display: block;
   width: 2.43rem;
   height: 2.21rem;
-  margin: 0.2rem auto 0; }
+  margin: 0.1rem auto 0; }
 
 .m-page-3-text-2 {
   display: block;
@@ -729,7 +735,7 @@ body {
   height: 1.07rem;
   background: url("/src/images/page-3-text-2.png") no-repeat;
   background-size: contain;
-  margin: 0.2rem auto 0; }
+  margin: 0.1rem auto 0; }
 
 .m-page-4-bg-1 {
   display: block;
@@ -741,11 +747,11 @@ body {
 
 .m-page-4-text-1 {
   display: block;
-  width: 3.4rem;
-  height: 4.8rem;
+  width: 3.2rem;
+  height: 4.4rem;
   background: url("/src/images/page-4-text-1.png") no-repeat;
   background-size: contain;
-  margin: 0.05rem auto 0; }
+  margin: 0.1rem auto 0; }
 
 .m-page-5-bg-1 {
   display: block;
@@ -770,6 +776,22 @@ body {
   background: url("/src/images/page-5-btn-1.png") no-repeat;
   background-size: contain;
   margin: 0.2rem auto 0; }
+
+@media only screen and (width: 375px) and (device-height: 812px) {
+  .m-arrow {
+    bottom: 0.3rem; }
+  .m-index-0 .m-page1-text1 {
+    margin-top: 0.3rem; }
+  .m-index-0 .m-page1-text2 {
+    margin-top: 0.3rem; }
+  .m-index-0 .m-page1-btn-1 > img {
+    margin-top: 0.3rem; }
+  .m-index-1 .m-page-2-text-1 {
+    margin-top: 0.4rem; }
+  .m-index-2 .m-page-3-text-1, .m-index-2 .m-page-3-bg-1, .m-index-2 .m-page-3-text-2 {
+    margin-top: 0.3rem; }
+  .m-index-3 .m-page-4-text-1 {
+    margin-top: 0.3rem; } }
 
 @-webkit-keyframes arrow {
   0% {

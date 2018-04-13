@@ -7,6 +7,10 @@ html, body {
 body {
   margin: 0;
   overflow-scrolling: touch;
+  padding-top: constant(safe-area-inset-top);
+  padding-left: constant(safe-area-inset-left);
+  padding-right: constant(safe-area-inset-right);
+  padding-bottom: constant(safe-area-inset-bottom);
 }
 
 #J-main-swiper {
@@ -52,6 +56,7 @@ body {
   }
 
   .m-page1-btn-1 {
+    display: block;
     & > img {
       display: block;
       width: 220px;
@@ -120,14 +125,14 @@ body {
   height: 29px;
   background: url('/src/images/page-3-text-1.png') no-repeat;
   background-size: contain;
-  margin: 20px auto 0;
+  margin: 10px auto 0;
 }
 
 .m-page-3-bg-1 {
   display: block;
   width: 243px;
   height: 221px;
-  margin: 20px auto 0;
+  margin: 10px auto 0;
 }
 
 .m-page-3-text-2 {
@@ -136,7 +141,7 @@ body {
   height: 107px;
   background: url('/src/images/page-3-text-2.png') no-repeat;
   background-size: contain;
-  margin: 20px auto 0;
+  margin: 10px auto 0;
 }
 
 .m-page-4-bg-1 {
@@ -151,11 +156,11 @@ body {
 
 .m-page-4-text-1 {
   display: block;
-  width: 340px;
-  height: 480px;
+  width: 320px;
+  height: 440px;
   background: url('/src/images/page-4-text-1.png') no-repeat;
   background-size: contain;
-  margin: 5px auto 0;
+  margin: 10px auto 0;
 }
 
 .m-page-5-bg-1 {
@@ -184,6 +189,40 @@ body {
   background: url('/src/images/page-5-btn-1.png') no-repeat;
   background-size: contain;
   margin: 20px auto 0;
+}
+
+@media only screen and (width: 375px) and (device-height: 812px){
+  .m-arrow {
+    bottom: 30px;
+  }
+  .m-index-0 {
+    .m-page1-text1 {
+      margin-top: 30px;
+    }
+    .m-page1-text2 {
+      margin-top: 30px;
+    }
+    .m-page1-btn-1 {
+      & > img {
+        margin-top: 30px;
+      }
+    }
+  }
+  .m-index-1 {
+    .m-page-2-text-1 {
+      margin-top: 40px;
+    }
+  }
+  .m-index-2 {
+    .m-page-3-text-1, .m-page-3-bg-1, .m-page-3-text-2 {
+      margin-top: 30px;
+    }
+  }
+  .m-index-3 {
+    .m-page-4-text-1 {
+      margin-top: 30px;
+    }
+  }
 }
 
 @keyframes arrow {
