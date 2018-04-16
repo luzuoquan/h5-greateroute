@@ -1,6 +1,8 @@
 import 'swiper/dist/css/swiper.css'
 import Swiper from 'swiper'
 
+alert(document.body.offsetHeight)
+
 export default function SwiperPage(node) {
   new Swiper(node, {
     direction: 'vertical',

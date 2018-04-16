@@ -191,7 +191,20 @@ body {
   margin: 20px auto 0;
 }
 
-@media only screen and (width: 375px) and (device-height: 812px){
+@media only screen and (device-width: 320px) {
+  .m-swiper-index-loop {
+    height: 280px;
+  }
+
+  .m-index-0 {
+    .m-page1-text1 {
+      width: 240px;
+      height: auto;
+    }
+  }
+}
+
+@media only screen and (width: 375px) and (device-height: 812px) {
   .m-arrow {
     bottom: 30px;
   }
