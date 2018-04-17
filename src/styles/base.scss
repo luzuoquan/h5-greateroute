@@ -112,6 +112,7 @@ body {
   display: block;
   width: 100%;
   height: 220px;
+  object-fit: unset;
 }
 
 .m-index-2 {
@@ -191,15 +192,136 @@ body {
   margin: 20px auto 0;
 }
 
-@media only screen and (device-width: 320px) {
+@media only screen and (device-width: 320px) and (min-height: 454px) {
   .m-swiper-index-loop {
-    height: 280px;
+    height: 240px;
   }
 
   .m-index-0 {
     .m-page1-text1 {
-      width: 240px;
+      width: 210px;
       height: auto;
+      margin-top: 10px;
+    }
+
+    .m-page1-text2 {
+      width: 260px;
+      height: auto;
+    }
+
+    .m-page1-btn-1 {
+      & > img {
+        width: 180px;
+        height: auto;
+        margin-top: 10px;
+      }
+    }
+
+    .m-index-text {
+      height: calc(100% - 240px);
+    }
+  }
+
+  .m-index-2 {
+    .m-video-inline {
+      height: 210px;
+    }
+
+    .m-page-3-text-1 {
+      width: 200px;
+      height: 20px;
+    }
+
+    .m-page-3-bg-1 {
+      width: 140px;
+      height: auto;
+    }
+
+    .m-page-3-text-2 {
+      width: 200px;
+      height: 80px;
+    }
+  }
+
+  .m-index-3 {
+    .m-page-4-bg-1 {
+      height: 230px;
+    }
+    
+    .m-page-4-text-1 {
+      width: 240px;
+      height: 280px;
+    }
+  }
+
+  .m-index-4 {
+    .m-page-5-text-1 {
+      width: 100px;
+      height: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .m-page-5-bg-1 {
+      height: 360px;
+      max-width: 100%;
+    }
+
+    .m-page-5-btn-1 {
+      margin-top: 10px;
+      width: 160px;
+    }
+  }
+}
+
+@media only screen and (device-width: 375px) and (min-height: 553px) {
+  .m-swiper-index-loop {
+    height: 310px;
+  }
+
+  .m-index-0 {
+    .m-index-text {
+      height: calc(100% - 310px);
+    }
+
+    .m-page1-text1 {
+      margin-top: 15px;
+    }
+
+    .m-page1-btn-1 {
+      & > img {
+        width: 200px;
+        height: auto;
+      }
+    }
+  }
+
+  .m-index-2 {
+    .m-page-3-bg-1 {
+      width: 180px;
+      height: auto;
+    }
+  }
+
+  .m-index-3 {
+    .m-page-4-bg-1 {
+      height: 300px;
+    }
+
+    .m-page-4-text-1 {
+      height: 253px;
+      width: 270px;
+    }
+  }
+
+  .m-index-4 {
+    .m-page-5-text-1 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .m-page-5-bg-1 {
+      height: 420px;
     }
   }
 }
