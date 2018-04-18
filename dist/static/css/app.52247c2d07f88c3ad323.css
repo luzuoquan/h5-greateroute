@@ -709,7 +709,9 @@ body {
 .m-video-inline {
   display: block;
   width: 100%;
-  height: 2.2rem; }
+  height: 2.2rem;
+  -o-object-fit: unset;
+     object-fit: unset; }
 
 .m-index-2 {
   background-color: #131313;
@@ -776,6 +778,80 @@ body {
   background: url("/src/images/page-5-btn-1.png") no-repeat;
   background-size: contain;
   margin: 0.2rem auto 0; }
+
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: -0.3rem; }
+
+.swiper-pagination-bullet-active {
+  background: #f2071c; }
+
+@media only screen and (device-width: 320px) and (min-height: 454px) {
+  .m-swiper-index-loop {
+    height: 2.4rem; }
+  .m-index-0 .m-page1-text1 {
+    width: 2.1rem;
+    height: auto;
+    margin-top: 0.1rem; }
+  .m-index-0 .m-page1-text2 {
+    width: 2.6rem;
+    height: auto; }
+  .m-index-0 .m-page1-btn-1 > img {
+    width: 1.8rem;
+    height: auto;
+    margin-top: 0.1rem; }
+  .m-index-0 .m-index-text {
+    height: calc(100% - 2.4rem); }
+  .m-index-2 .m-video-inline {
+    height: 2.1rem; }
+  .m-index-2 .m-page-3-text-1 {
+    width: 2rem;
+    height: 0.2rem; }
+  .m-index-2 .m-page-3-bg-1 {
+    width: 1.4rem;
+    height: auto; }
+  .m-index-2 .m-page-3-text-2 {
+    width: 2rem;
+    height: 0.8rem; }
+  .m-index-3 .m-page-4-bg-1 {
+    height: 2.3rem; }
+  .m-index-3 .m-page-4-text-1 {
+    width: 2.4rem;
+    height: 2.8rem; }
+  .m-index-4 .m-page-5-text-1 {
+    width: 1rem;
+    height: 0.2rem;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem; }
+  .m-index-4 .m-page-5-bg-1 {
+    height: 3.6rem;
+    max-width: 100%; }
+  .m-index-4 .m-page-5-btn-1 {
+    margin-top: 0.1rem;
+    width: 1.6rem; } }
+
+@media only screen and (device-width: 375px) and (min-height: 553px) {
+  .m-swiper-index-loop {
+    height: 3.1rem; }
+  .m-index-0 .m-index-text {
+    height: calc(100% - 3.1rem); }
+  .m-index-0 .m-page1-text1 {
+    margin-top: 0.15rem; }
+  .m-index-0 .m-page1-btn-1 > img {
+    width: 2rem;
+    height: auto; }
+  .m-index-2 .m-page-3-bg-1 {
+    width: 1.8rem;
+    height: auto; }
+  .m-index-3 .m-page-4-bg-1 {
+    height: 3rem; }
+  .m-index-3 .m-page-4-text-1 {
+    height: 2.53rem;
+    width: 2.7rem; }
+  .m-index-4 .m-page-5-text-1 {
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem; }
+  .m-index-4 .m-page-5-bg-1 {
+    height: 4.2rem; } }
 
 @media only screen and (width: 375px) and (device-height: 812px) {
   .m-arrow {
