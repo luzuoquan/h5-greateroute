@@ -10,6 +10,9 @@ export default function SwiperPage(node) {
 
   new Swiper('#J-index-loop', {
     direction: 'horizontal',
-    simulateTouch: false
+    simulateTouch: false,
+    pagination: {
+      el: '.swiper-pagination'
+    }
   })
 }
