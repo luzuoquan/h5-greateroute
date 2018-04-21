@@ -6,13 +6,13 @@ const config = require('./webpack.dev.config.js')
 const options = {
   contentBase: path.resolve('./'),
   hot: true,
-  host: '0.0.0.0'
+  host: '192.168.1.107'
 }
 
 webpackDevServer.addDevServerEntrypoints(config, options)
 const compiler = webpack(config)
 const server = new webpackDevServer(compiler, options)
 
-server.listen(8080, '0.0.0.0', () => {
+server.listen(8080, '192.168.1.107', () => {
   console.log('dev server listening on port 8080')
 });
