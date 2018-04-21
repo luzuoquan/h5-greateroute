@@ -1,5 +1,6 @@
 import 'swiper/dist/css/swiper.css'
 import Swiper from 'swiper'
+import 'amfe-flexible'
 
 export default function SwiperPage(node) {
   new Swiper(node, {

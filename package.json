@@ -39,6 +39,7 @@
     "webpack-merge": "^4.1.2"
   },
   "dependencies": {
+    "amfe-flexible": "^2.2.1",
     "swiper": "^4.2.2"
   }
 }

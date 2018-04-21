@@ -20,7 +20,7 @@ body {
 
 .m-swiper-index-loop {
   width: 100%;
-  height: 330px;
+  height: 660px;
 
   .swiper-slide {
     height: 660px;
@@ -37,15 +37,15 @@ body {
 
   .m-index-text {
     position: relative;
-    height: calc( 100% - 330px );
+    height: calc( 100% - 660px );
     overflow: hidden;
   }
 
   .m-page1-text1 {
     display: block;
-    width: 275px;
-    height: 65px;
-    margin: 20px auto 0;
+    width: 550px;
+    height: 130px;
+    margin: 40px auto 0;
   }
 
   .m-page1-text2 {
@@ -193,180 +193,180 @@ body {
 }
 
 .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
-  bottom: -30px;
+  bottom: 0;
 }
 
 .swiper-pagination-bullet-active {
   background: #f2071c;
 }
 
-@media only screen and (device-width: 320px) and (min-height: 454px) {
-  .m-swiper-index-loop {
-    height: 240px;
-  }
+// @media only screen and (device-width: 320px) and (min-height: 454px) {
+//   .m-swiper-index-loop {
+//     height: 480px;
+//   }
 
-  .m-index-0 {
-    .m-page1-text1 {
-      width: 210px;
-      height: auto;
-      margin-top: 10px;
-    }
+//   .m-index-0 {
+//     .m-page1-text1 {
+//       width: 210px;
+//       height: auto;
+//       margin-top: 10px;
+//     }
 
-    .m-page1-text2 {
-      width: 260px;
-      height: auto;
-    }
+//     .m-page1-text2 {
+//       width: 260px;
+//       height: auto;
+//     }
 
-    .m-page1-btn-1 {
-      & > img {
-        width: 180px;
-        height: auto;
-        margin-top: 10px;
-      }
-    }
+//     .m-page1-btn-1 {
+//       & > img {
+//         width: 180px;
+//         height: auto;
+//         margin-top: 10px;
+//       }
+//     }
 
-    .m-index-text {
-      height: calc(100% - 240px);
-    }
-  }
+//     .m-index-text {
+//       height: calc(100% - 240px);
+//     }
+//   }
 
-  .m-index-2 {
-    .m-video-inline {
-      height: 210px;
-    }
+//   .m-index-2 {
+//     .m-video-inline {
+//       height: 210px;
+//     }
 
-    .m-page-3-text-1 {
-      width: 200px;
-      height: 20px;
-    }
+//     .m-page-3-text-1 {
+//       width: 200px;
+//       height: 20px;
+//     }
 
-    .m-page-3-bg-1 {
-      width: 140px;
-      height: auto;
-    }
+//     .m-page-3-bg-1 {
+//       width: 140px;
+//       height: auto;
+//     }
 
-    .m-page-3-text-2 {
-      width: 200px;
-      height: 80px;
-    }
-  }
+//     .m-page-3-text-2 {
+//       width: 200px;
+//       height: 80px;
+//     }
+//   }
 
-  .m-index-3 {
-    .m-page-4-bg-1 {
-      height: 230px;
-    }
+//   .m-index-3 {
+//     .m-page-4-bg-1 {
+//       height: 230px;
+//     }
     
-    .m-page-4-text-1 {
-      width: 240px;
-      height: 280px;
-    }
-  }
+//     .m-page-4-text-1 {
+//       width: 240px;
+//       height: 280px;
+//     }
+//   }
 
-  .m-index-4 {
-    .m-page-5-text-1 {
-      width: 100px;
-      height: 20px;
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
+//   .m-index-4 {
+//     .m-page-5-text-1 {
+//       width: 100px;
+//       height: 20px;
+//       margin-top: 10px;
+//       margin-bottom: 10px;
+//     }
 
-    .m-page-5-bg-1 {
-      height: 360px;
-      max-width: 100%;
-    }
+//     .m-page-5-bg-1 {
+//       height: 360px;
+//       max-width: 100%;
+//     }
 
-    .m-page-5-btn-1 {
-      margin-top: 10px;
-      width: 160px;
-    }
-  }
-}
+//     .m-page-5-btn-1 {
+//       margin-top: 10px;
+//       width: 160px;
+//     }
+//   }
+// }
 
-@media only screen and (device-width: 375px) and (min-height: 553px) {
-  .m-swiper-index-loop {
-    height: 310px;
-  }
+// @media only screen and (device-width: 375px) and (min-height: 553px) {
+//   .m-swiper-index-loop {
+//     height: 310px;
+//   }
 
-  .m-index-0 {
-    .m-index-text {
-      height: calc(100% - 310px);
-    }
+//   .m-index-0 {
+//     .m-index-text {
+//       height: calc(100% - 310px);
+//     }
 
-    .m-page1-text1 {
-      margin-top: 15px;
-    }
+//     .m-page1-text1 {
+//       margin-top: 15px;
+//     }
 
-    .m-page1-btn-1 {
-      & > img {
-        width: 200px;
-        height: auto;
-      }
-    }
-  }
+//     .m-page1-btn-1 {
+//       & > img {
+//         width: 200px;
+//         height: auto;
+//       }
+//     }
+//   }
 
-  .m-index-2 {
-    .m-page-3-bg-1 {
-      width: 180px;
-      height: auto;
-    }
-  }
+//   .m-index-2 {
+//     .m-page-3-bg-1 {
+//       width: 180px;
+//       height: auto;
+//     }
+//   }
 
-  .m-index-3 {
-    .m-page-4-bg-1 {
-      height: 300px;
-    }
+//   .m-index-3 {
+//     .m-page-4-bg-1 {
+//       height: 300px;
+//     }
 
-    .m-page-4-text-1 {
-      height: 253px;
-      width: 270px;
-    }
-  }
+//     .m-page-4-text-1 {
+//       height: 253px;
+//       width: 270px;
+//     }
+//   }
 
-  .m-index-4 {
-    .m-page-5-text-1 {
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
+//   .m-index-4 {
+//     .m-page-5-text-1 {
+//       margin-top: 10px;
+//       margin-bottom: 10px;
+//     }
 
-    .m-page-5-bg-1 {
-      height: 420px;
-    }
-  }
-}
+//     .m-page-5-bg-1 {
+//       height: 420px;
+//     }
+//   }
+// }
 
-@media only screen and (width: 375px) and (device-height: 812px) {
-  .m-arrow {
-    bottom: 30px;
-  }
-  .m-index-0 {
-    .m-page1-text1 {
-      margin-top: 30px;
-    }
-    .m-page1-text2 {
-      margin-top: 30px;
-    }
-    .m-page1-btn-1 {
-      & > img {
-        margin-top: 30px;
-      }
-    }
-  }
-  .m-index-1 {
-    .m-page-2-text-1 {
-      margin-top: 40px;
-    }
-  }
-  .m-index-2 {
-    .m-page-3-text-1, .m-page-3-bg-1, .m-page-3-text-2 {
-      margin-top: 30px;
-    }
-  }
-  .m-index-3 {
-    .m-page-4-text-1 {
-      margin-top: 30px;
-    }
-  }
-}
+// @media only screen and (width: 375px) and (device-height: 812px) {
+//   .m-arrow {
+//     bottom: 30px;
+//   }
+//   .m-index-0 {
+//     .m-page1-text1 {
+//       margin-top: 30px;
+//     }
+//     .m-page1-text2 {
+//       margin-top: 30px;
+//     }
+//     .m-page1-btn-1 {
+//       & > img {
+//         margin-top: 30px;
+//       }
+//     }
+//   }
+//   .m-index-1 {
+//     .m-page-2-text-1 {
+//       margin-top: 40px;
+//     }
+//   }
+//   .m-index-2 {
+//     .m-page-3-text-1, .m-page-3-bg-1, .m-page-3-text-2 {
+//       margin-top: 30px;
+//     }
+//   }
+//   .m-index-3 {
+//     .m-page-4-text-1 {
+//       margin-top: 30px;
+//     }
+//   }
+// }
 
 @keyframes arrow {
   0% {
