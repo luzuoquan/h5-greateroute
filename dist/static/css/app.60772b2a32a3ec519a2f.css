@@ -636,7 +636,7 @@ body {
 
 .m-swiper-index-loop {
   width: 100%;
-  height: 3.3rem; }
+  height: 6.6rem; }
   .m-swiper-index-loop .swiper-slide {
     height: 6.6rem; }
   .m-swiper-index-loop .m-banner {
@@ -647,30 +647,30 @@ body {
   overflow: hidden; }
   .m-index-0 .m-index-text {
     position: relative;
-    height: calc( 100% - 3.3rem);
+    height: calc( 100% - 6.6rem);
     overflow: hidden; }
   .m-index-0 .m-page1-text1 {
     display: block;
-    width: 2.75rem;
-    height: 0.65rem;
-    margin: 0.2rem auto 0; }
+    width: 5.5rem;
+    height: 1.3rem;
+    margin: 0.4rem auto 0; }
   .m-index-0 .m-page1-text2 {
     display: block;
-    width: 3.17rem;
-    height: 0.49rem;
-    margin: 0.15rem auto 0; }
+    width: 4.2rem;
+    height: 0.96rem;
+    margin: 0.3rem auto; }
   .m-index-0 .m-page1-btn-1 {
     display: block; }
     .m-index-0 .m-page1-btn-1 > img {
       display: block;
-      width: 2.2rem;
-      height: 0.42rem;
-      margin: 0.15rem auto 0; }
+      width: 4.4rem;
+      height: 0.84rem;
+      margin: 0.3rem auto; }
 
 .m-arrow {
   display: block;
-  width: 0.43rem;
-  height: 0.16rem;
+  width: 0.86rem;
+  height: 0.32rem;
   background: url("/src/images/arrow.png") no-repeat;
   background-size: contain;
   position: absolute;
@@ -683,11 +683,11 @@ body {
 
 .m-index-1-bg-1 {
   display: block;
-  width: 1.25rem;
-  height: 0.13rem;
+  width: 2.5rem;
+  height: 0.26rem;
   background: url("/src/images/page-1-text-3.png") no-repeat;
   background-size: contain;
-  margin: 0.15rem auto 0; }
+  margin: 0.4rem auto; }
 
 .m-page-2-bg-1 {
   display: block;
@@ -709,9 +709,7 @@ body {
 .m-video-inline {
   display: block;
   width: 100%;
-  height: 2.2rem;
-  -o-object-fit: unset;
-     object-fit: unset; }
+  height: 4.4rem; }
 
 .m-index-2 {
   background-color: #131313;
@@ -719,155 +717,71 @@ body {
 
 .m-page-3-text-1 {
   display: block;
-  width: 2.36rem;
-  height: 0.29rem;
+  width: 4.71rem;
+  height: 0.47rem;
   background: url("/src/images/page-3-text-1.png") no-repeat;
   background-size: contain;
-  margin: 0.1rem auto 0; }
+  margin: 0.5rem auto; }
 
 .m-page-3-bg-1 {
   display: block;
-  width: 2.03rem;
-  height: 1.84rem;
-  margin: 0.1rem auto 0; }
+  width: 4.85rem;
+  height: 4.41rem;
+  margin: 0.4rem auto; }
 
 .m-page-3-text-2 {
   display: block;
-  width: 2.4rem;
-  height: 1.07rem;
+  width: 5.5rem;
+  height: 2.14rem;
   background: url("/src/images/page-3-text-2.png") no-repeat;
   background-size: contain;
-  margin: 0.1rem auto 0; }
+  margin: 0.5rem auto; }
 
 .m-page-4-bg-1 {
   display: block;
   width: 100%;
-  height: 3.3rem; }
+  height: 6.6rem; }
 
 .m-index-3 {
   background-color: #131313; }
 
 .m-page-4-text-1 {
   display: block;
-  width: 3.2rem;
-  height: 4.4rem;
+  width: 6.8rem;
+  height: 5.22rem;
   background: url("/src/images/page-4-text-1.png") no-repeat;
   background-size: contain;
-  margin: 0.1rem auto 0; }
+  margin: 0.5rem auto; }
 
 .m-page-5-bg-1 {
   display: block;
   width: 100%;
-  height: 4.45rem; }
+  height: 10rem; }
 
 .m-index-4 {
   background-color: #131313; }
 
 .m-page-5-text-1 {
   display: block;
-  width: 1.3rem;
-  height: 0.24rem;
+  width: 2.6rem;
+  height: 0.48rem;
   background: url("/src/images/page-5-text-1.png") no-repeat;
   background-size: contain;
-  margin: 0.2rem auto 0.2rem; }
+  margin: 0.5rem auto; }
 
 .m-page-5-btn-1 {
   display: block;
-  width: 1.9rem;
-  height: 0.44rem;
+  width: 3.8rem;
+  height: 0.88rem;
   background: url("/src/images/page-5-btn-1.png") no-repeat;
   background-size: contain;
-  margin: 0.2rem auto 0; }
+  margin: 0.5rem auto; }
 
 .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
-  bottom: -0.3rem; }
+  bottom: 0; }
 
 .swiper-pagination-bullet-active {
   background: #f2071c; }
-
-@media only screen and (device-width: 320px) and (min-height: 454px) {
-  .m-swiper-index-loop {
-    height: 2.4rem; }
-  .m-index-0 .m-page1-text1 {
-    width: 2.1rem;
-    height: auto;
-    margin-top: 0.1rem; }
-  .m-index-0 .m-page1-text2 {
-    width: 2.6rem;
-    height: auto; }
-  .m-index-0 .m-page1-btn-1 > img {
-    width: 1.8rem;
-    height: auto;
-    margin-top: 0.1rem; }
-  .m-index-0 .m-index-text {
-    height: calc(100% - 2.4rem); }
-  .m-index-2 .m-video-inline {
-    height: 2.1rem; }
-  .m-index-2 .m-page-3-text-1 {
-    width: 2rem;
-    height: 0.2rem; }
-  .m-index-2 .m-page-3-bg-1 {
-    width: 1.4rem;
-    height: auto; }
-  .m-index-2 .m-page-3-text-2 {
-    width: 2rem;
-    height: 0.8rem; }
-  .m-index-3 .m-page-4-bg-1 {
-    height: 2.3rem; }
-  .m-index-3 .m-page-4-text-1 {
-    width: 2.4rem;
-    height: 2.8rem; }
-  .m-index-4 .m-page-5-text-1 {
-    width: 1rem;
-    height: 0.2rem;
-    margin-top: 0.1rem;
-    margin-bottom: 0.1rem; }
-  .m-index-4 .m-page-5-bg-1 {
-    height: 3.6rem;
-    max-width: 100%; }
-  .m-index-4 .m-page-5-btn-1 {
-    margin-top: 0.1rem;
-    width: 1.6rem; } }
-
-@media only screen and (device-width: 375px) and (min-height: 553px) {
-  .m-swiper-index-loop {
-    height: 3.1rem; }
-  .m-index-0 .m-index-text {
-    height: calc(100% - 3.1rem); }
-  .m-index-0 .m-page1-text1 {
-    margin-top: 0.15rem; }
-  .m-index-0 .m-page1-btn-1 > img {
-    width: 2rem;
-    height: auto; }
-  .m-index-2 .m-page-3-bg-1 {
-    width: 1.8rem;
-    height: auto; }
-  .m-index-3 .m-page-4-bg-1 {
-    height: 3rem; }
-  .m-index-3 .m-page-4-text-1 {
-    height: 2.53rem;
-    width: 2.7rem; }
-  .m-index-4 .m-page-5-text-1 {
-    margin-top: 0.1rem;
-    margin-bottom: 0.1rem; }
-  .m-index-4 .m-page-5-bg-1 {
-    height: 4.2rem; } }
-
-@media only screen and (width: 375px) and (device-height: 812px) {
-  .m-arrow {
-    bottom: 0.3rem; }
-  .m-index-0 .m-page1-text1 {
-    margin-top: 0.3rem; }
-  .m-index-0 .m-page1-text2 {
-    margin-top: 0.3rem; }
-  .m-index-0 .m-page1-btn-1 > img {
-    margin-top: 0.3rem; }
-  .m-index-1 .m-page-2-text-1 {
-    margin-top: 0.4rem; }
-  .m-index-2 .m-page-3-text-1, .m-index-2 .m-page-3-bg-1, .m-index-2 .m-page-3-text-2 {
-    margin-top: 0.3rem; }
-  .m-index-3 .m-page-4-text-1 {
-    margin-top: 0.3rem; } }
 
 @-webkit-keyframes arrow {
   0% {
