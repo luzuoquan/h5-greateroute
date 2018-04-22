@@ -617,7 +617,7 @@ button.swiper-pagination-bullet {
   -ms-perspective: 1200px;
 }
 html {
-  font-size: 100px; }
+  font-size: 75px; }
 
 html, body {
   height: 100%; }
@@ -636,9 +636,9 @@ body {
 
 .m-swiper-index-loop {
   width: 100%;
-  height: 6.6rem; }
+  height: 8.8rem; }
   .m-swiper-index-loop .swiper-slide {
-    height: 6.6rem; }
+    height: 8.8rem; }
   .m-swiper-index-loop .m-banner {
     width: 100%; }
 
@@ -647,60 +647,60 @@ body {
   overflow: hidden; }
   .m-index-0 .m-index-text {
     position: relative;
-    height: calc( 100% - 6.6rem);
+    height: calc( 100% - 8.8rem);
     overflow: hidden; }
   .m-index-0 .m-page1-text1 {
     display: block;
-    width: 5.5rem;
-    height: 1.3rem;
-    margin: 0.4rem auto 0; }
+    width: 7.33333rem;
+    height: 1.73333rem;
+    margin: 0.53333rem auto 0; }
   .m-index-0 .m-page1-text2 {
     display: block;
-    width: 4.2rem;
-    height: 0.96rem;
-    margin: 0.3rem auto; }
+    width: 5.6rem;
+    height: 1.28rem;
+    margin: 0.4rem auto; }
   .m-index-0 .m-page1-btn-1 {
     display: block; }
     .m-index-0 .m-page1-btn-1 > img {
       display: block;
-      width: 4.4rem;
-      height: 0.84rem;
-      margin: 0.3rem auto; }
+      width: 5.86667rem;
+      height: 1.12rem;
+      margin: 0.4rem auto; }
 
 .m-arrow {
   display: block;
-  width: 0.86rem;
-  height: 0.32rem;
+  width: 1.14667rem;
+  height: 0.42667rem;
   background: url("/src/images/arrow.png") no-repeat;
   background-size: contain;
   position: absolute;
   bottom: 0;
   left: 50%;
-  -webkit-transform: translate(-50%, -0.08rem);
-          transform: translate(-50%, -0.08rem);
+  -webkit-transform: translate(-50%, -0.10667rem);
+          transform: translate(-50%, -0.10667rem);
   -webkit-animation: arrow 1s infinite ease;
           animation: arrow 1s infinite ease; }
 
 .m-index-1-bg-1 {
   display: block;
-  width: 2.5rem;
-  height: 0.26rem;
+  width: 3.33333rem;
+  height: 0.34667rem;
   background: url("/src/images/page-1-text-3.png") no-repeat;
   background-size: contain;
-  margin: 0.4rem auto; }
+  margin: 0.53333rem auto; }
 
 .m-page-2-bg-1 {
   display: block;
   width: 100%;
-  height: 4.88rem; }
+  height: 6.50667rem; }
 
 .m-page-2-text-1 {
   display: block;
-  width: 2.76rem;
-  height: 0.72rem;
+  width: 3.68rem;
+  height: 0.96rem;
   background: url("/src/images/page-2-text-1.png") no-repeat;
   background-size: contain;
-  margin: 0.2rem auto 0; }
+  margin: 0.26667rem auto 0; }
 
 .m-index-1 {
   background-color: #131313;
@@ -709,7 +709,7 @@ body {
 .m-video-inline {
   display: block;
   width: 100%;
-  height: 4.4rem; }
+  height: 5.86667rem; }
 
 .m-index-2 {
   background-color: #131313;
@@ -717,65 +717,65 @@ body {
 
 .m-page-3-text-1 {
   display: block;
-  width: 4.71rem;
-  height: 0.47rem;
+  width: 6.28rem;
+  height: 0.62667rem;
   background: url("/src/images/page-3-text-1.png") no-repeat;
   background-size: contain;
-  margin: 0.5rem auto; }
+  margin: 0.4rem auto; }
 
 .m-page-3-bg-1 {
   display: block;
-  width: 4.85rem;
-  height: 4.41rem;
+  width: 6.46667rem;
+  height: 5.88rem;
   margin: 0.4rem auto; }
 
 .m-page-3-text-2 {
   display: block;
-  width: 5.5rem;
-  height: 2.14rem;
+  width: 7.33333rem;
+  height: 2.85333rem;
   background: url("/src/images/page-3-text-2.png") no-repeat;
   background-size: contain;
-  margin: 0.5rem auto; }
+  margin: 0.4rem auto 0; }
 
 .m-page-4-bg-1 {
   display: block;
   width: 100%;
-  height: 6.6rem; }
+  height: 8.8rem; }
 
 .m-index-3 {
   background-color: #131313; }
 
 .m-page-4-text-1 {
   display: block;
-  width: 6.8rem;
-  height: 5.22rem;
+  width: 9.06667rem;
+  height: 6.96rem;
   background: url("/src/images/page-4-text-1.png") no-repeat;
   background-size: contain;
-  margin: 0.5rem auto; }
+  margin: 0.66667rem auto; }
 
 .m-page-5-bg-1 {
   display: block;
   width: 100%;
-  height: 10rem; }
+  height: 11.86667rem; }
 
 .m-index-4 {
   background-color: #131313; }
 
 .m-page-5-text-1 {
   display: block;
-  width: 2.6rem;
-  height: 0.48rem;
+  width: 3.46667rem;
+  height: 0.64rem;
   background: url("/src/images/page-5-text-1.png") no-repeat;
   background-size: contain;
-  margin: 0.5rem auto; }
+  margin: 0.4rem auto; }
 
 .m-page-5-btn-1 {
   display: block;
-  width: 3.8rem;
-  height: 0.88rem;
+  width: 5.06667rem;
+  height: 1.17333rem;
   background: url("/src/images/page-5-btn-1.png") no-repeat;
   background-size: contain;
-  margin: 0.5rem auto; }
+  margin: 0.4rem auto; }
 
 .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
   bottom: 0; }
@@ -783,13 +783,43 @@ body {
 .swiper-pagination-bullet-active {
   background: #f2071c; }
 
+@media only screen and (device-width: 320px) and (height: 454px) {
+  .m-swiper-index-loop {
+    height: 8rem; }
+  .m-index-0 .m-page1-text1 {
+    height: auto;
+    margin-top: 0.13333rem; }
+  .m-index-0 .m-page1-btn-1 > img {
+    margin-top: 0.13333rem; }
+  .m-index-0 .m-index-text {
+    height: calc(100% - 8rem); }
+  .m-index-2 .m-page-3-text-1 {
+    margin: 0.2rem auto; }
+  .m-index-2 .m-page-3-bg-1 {
+    margin: 0.2rem auto;
+    width: 5.73333rem;
+    height: auto; }
+  .m-index-2 .m-page-3-text-2 {
+    margin: 0.2rem auto 0;
+    width: 6.66667rem;
+    height: 2.6rem; }
+  .m-index-3 .m-page-4-bg-1 {
+    height: 8rem; }
+  .m-index-3 .m-page-4-text-1 {
+    margin: 0.26667rem auto 0; }
+  .m-index-4 .m-page-5-text-1 {
+    margin-top: 0.13333rem;
+    margin-bottom: 0.13333rem; }
+  .m-index-4 .m-page-5-btn-1 {
+    margin-top: 0.13333rem; } }
+
 @-webkit-keyframes arrow {
   0% {
     -webkit-transform: translate(-50%, 0rem);
             transform: translate(-50%, 0rem); }
   50% {
-    -webkit-transform: translate(-50%, -0.1rem);
-            transform: translate(-50%, -0.1rem); }
+    -webkit-transform: translate(-50%, -0.13333rem);
+            transform: translate(-50%, -0.13333rem); }
   100% {
     -webkit-transform: translate(-50%, 0rem);
             transform: translate(-50%, 0rem); } }
@@ -799,8 +829,8 @@ body {
     -webkit-transform: translate(-50%, 0rem);
             transform: translate(-50%, 0rem); }
   50% {
-    -webkit-transform: translate(-50%, -0.1rem);
-            transform: translate(-50%, -0.1rem); }
+    -webkit-transform: translate(-50%, -0.13333rem);
+            transform: translate(-50%, -0.13333rem); }
   100% {
     -webkit-transform: translate(-50%, 0rem);
             transform: translate(-50%, 0rem); } }
