@@ -640,7 +640,8 @@ body {
   .m-swiper-index-loop .swiper-slide {
     height: 8.8rem; }
   .m-swiper-index-loop .m-banner {
-    width: 100%; }
+    width: 100%;
+    height: 100%; }
 
 .m-index-0 {
   background-color: #131313;
