@@ -5,7 +5,7 @@ import 'amfe-flexible'
 const video = document.querySelector('#J-video')
 
 export default function SwiperPage(node) {
-  new Swiper(node, {
+  const mainSwiper = new Swiper(node, {
     direction: 'vertical',
     loop: false,
     simulateTouch: false,
@@ -19,6 +19,15 @@ export default function SwiperPage(node) {
       }
     }
   })
+
+  document.addEventListener('touchstart', () => {
+    if (mainSwiper.activeIndex === 1) {
+      video.play()
+    } else {
+      video.pause()
+    }
+  })
+
 
   // mainSwiper.slideTo()
 
