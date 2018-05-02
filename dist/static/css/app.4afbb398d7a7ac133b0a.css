@@ -814,6 +814,10 @@ body {
   .m-index-4 .m-page-5-btn-1 {
     margin-top: 0.13333rem; } }
 
+@media only screen and (width: 375px) and (device-height: 812px) {
+  .m-arrow {
+    bottom: 0.4rem; } }
+
 @-webkit-keyframes arrow {
   0% {
     -webkit-transform: translate(-50%, 0rem);
