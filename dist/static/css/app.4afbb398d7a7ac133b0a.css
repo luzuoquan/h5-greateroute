@@ -677,8 +677,6 @@ body {
   position: absolute;
   bottom: 0;
   left: 50%;
-  -webkit-transform: translate(-50%, -0.10667rem);
-          transform: translate(-50%, -0.10667rem);
   -webkit-animation: arrow 1s infinite ease;
           animation: arrow 1s infinite ease; }
 
